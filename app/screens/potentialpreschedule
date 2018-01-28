@@ -1,0 +1,47 @@
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
+import { ListItem, Separator, Container, Left, Right, Body, Content, Header, Icon, Button, Title, Item, Input } from 'native-base';
+
+export default class Schedule extends Component {
+
+  render() {
+
+    return (
+      <Container>
+        <Header>
+          <Left>
+            <Button transparent onPress={() => this.props.navigation.navigate("DrawerOpen") }>
+              <Icon name="menu" />
+            </Button>
+          </Left>
+          <Body>
+            <Title>Schedule</Title>
+          </Body>
+        </Header>
+
+        <Content>
+          <Separator bordered>
+            <Text>Shopping</Text>
+          </Separator>
+          <ListItem>
+            <Text>Buy milk</Text>
+          </ListItem>
+          <ListItem>
+            <Text>Buy Adidas</Text>
+          </ListItem>
+
+          <Separator bordered>
+            <Text>School</Text>
+          </Separator>
+          <ListItem>
+            <Text>CMPT Assignment</Text>
+          </ListItem>
+          <ListItem>
+            <Text>MACM Midterm</Text>
+          </ListItem>
+
+        </Content>
+      </Container>
+    );
+  }
+}
