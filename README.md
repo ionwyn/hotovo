@@ -24,13 +24,11 @@ If you have a fixed task at fixed location (e.g. lecture or work), have the app 
 
 ## Get Started
 
-####1. System Requirements
+### 1. System Requirements
 
 * Globally installed [node](https://nodejs.org/en/) >= 4.0
 
 * Globally installed [npm](https://www.npmjs.org/) >= 3.0
-
-* Globally installed [rnpm](https://github.com/rnpm/rnpm) *(only if React Native version < 0.29)*
 
 * Globally installed [react-native CLI](https://facebook.github.io/react-native/docs/getting-started.html)
 
@@ -43,33 +41,19 @@ On the command prompt run the following commands
 ```sh
 $ git clone https://github.com/ionwyn/hotovo.git
 
-$ cd Divie-react-native/
+$ cd hotovo/
 
 $ npm install
 ```
 
-If React Native < 0.29
-
-```sh
-$ rnpm link
-```
-
-If React Native >= 0.29
+Link React Native Modules 
 
 ```sh
 $ react-native link
 ```
 
-####3. Simulate for iOS
+### 3. Simulate for iOS
 
-**Method One**
-
-*	Open the project in Xcode from **ios/Divide.xcodeproj**.
-
-*	Hit the play button.
-
-
-**Method Two**
 
 *	Run the following command in your terminal.
 
@@ -77,7 +61,7 @@ $ react-native link
 $ react-native run-ios
 ```
 
-###4. Simulate for Android
+### 4. Simulate for Android
 
 *	Make sure you have an **Android emulator** installed and running.
 
