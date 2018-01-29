@@ -34,7 +34,7 @@ If you have a fixed task at fixed location (e.g. lecture or work), have the app 
 
 
 
-####2. Installation
+### 2. Installation
 
 On the command prompt run the following commands
 
