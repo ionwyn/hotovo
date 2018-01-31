@@ -26,11 +26,11 @@ If you have a fixed task at fixed location (e.g. lecture or work), have the app 
 
 ### 1. System Requirements
 
-* Globally installed [node](https://nodejs.org/en/) >= 4.0
+* Globally installed [node](https://nodejs.org/en/)
 
-* Globally installed [npm](https://www.npmjs.org/) >= 3.0
+* Globally installed [npm](https://www.npmjs.org/)
 
-* Globally installed [react-native CLI](https://facebook.github.io/react-native/docs/getting-started.html)
+* Globally installed [react-native](https://facebook.github.io/react-native/docs/getting-started.html)
 
 
 
