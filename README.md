@@ -1,25 +1,25 @@
-# project AION
+# Project AION
 
 ### Overview
-project AION is an attempt at solving human scheduling problem.  The software aims to predict human tasks and automate daily schedule.  It sounds crazy, because it is.  The goal here is not to get users to follow what the program tells users to do, but to ultimately get users to be more mindful about what they do.
+Project AION is an attempt at solving the human scheduling problem.  The software aims to predict human tasks and automate a daily schedule.  It sounds crazy, because it is.  The goal here is not to get users to follow what the program says to do, but to ultimately get users to be more mindful about what they do.
 
 It is cross-platform, massive thanks to **React Native** and its developers, they all deserve reservations in heaven.
 
 ### Features done and under development
 * __Knapsack__
-Love everything about it.  It's just such a beautiful algorithm, isn't it?
+Love everything about it.  It's such a beautiful algorithm, isn't it?
 * __Item-based Collaborative-Filtering__
-At the heart of the application is this algorithm that suggests the user on what to do based on previously completed tasks.  I understand that often we do not do the same thing twice or do the same thing twice for the same duration.  The latter is not a problem since we only suggests what the users might do based on previous patterns, not tell them what to do.
+At the heart of the application is an algorithm that suggests to the user what to do based on previously completed tasks. I understand that we often do not do the same thing twice or for the same duration.  The latter is not a problem since the program only suggests what the user might do based on previous patterns, and does not tell them what to do.
 
-* There's other stuff, but due to time constraint, I will have to continue this article other time.
+* There is more to deal with here other, but due to time constraints, I will have to continue this article at another time.
 
-The two features above are completed, though not integrated to the front-end, as there is still a lot of front-end work to figure.
+The two features above are completed, though not integrated to the front-end, as there is still a lot of front-end work to figure out.
 
 ### Advanced features (only for future development)
 * __Geotask-like feature__
-Suggest tasks based on location.  If earlier the user entered ("Buy Milk", "Study"), and if the user is at a grocery store, we suggest the user to "Buy Milk" first.
+Suggests tasks based on location.  If the user entered ("Buy Milk", "Study") earlier, and the user is at a grocery store, we suggest to the user "Buy Milk" first.
 * __Leave now__
-If you have a fixed task at fixed location (e.g. lecture or work), have the app remind you to leave home prior to lecture, and suggest a route (by maybe synchronizing with Google Maps)
+If you have a fixed task at a fixed location (e.g. lecture or work),the app reminds you to leave home prior to lecture, and suggests a route (potentially synchronizing with Google Maps)
 
 
 ## Get Started
